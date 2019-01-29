@@ -62,13 +62,7 @@ public class AStar {
                     destinationNode.setGDistance(calcGScore);
                     destinationNode.setFTotalCost(calcfScore);
 
-                    if(openPriorityQueue.contains(destinationNode)){
-
-                        openPriorityQueue.remove(destinationNode);
-                    }
-
                     openPriorityQueue.add(destinationNode);
-
                 }
             }
 
