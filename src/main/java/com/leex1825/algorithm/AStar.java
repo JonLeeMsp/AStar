@@ -70,9 +70,6 @@ public class AStar {
                     openPriorityQueue.add(destinationNode);
 
                 }
-
-                openPriorityQueue.add(destinationNode);
-
             }
 
         }
